@@ -1,6 +1,6 @@
 library('Rcpp')
 
-sourceCpp('include/bcdist_sparse.cpp')
+sourceCpp('bcdist_sparse.cpp')
 
 ## Run bray curtis distance on the sparse matrices.
 
